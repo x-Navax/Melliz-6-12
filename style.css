@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
-
+@font-face {
+  font-family: 'MiFuente';
+  src: url('./Bushcraft.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 #bg{
   background-color: black;
     display: flex;
@@ -104,8 +109,8 @@ footer {
 .btn-maps {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #34A853; /* Verde estilo Google Maps */
-  color: #fff;
+  background-color: #858585; /* Verde estilo Google Maps */
+  color:rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
   font-size: 16px;
@@ -114,6 +119,7 @@ footer {
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  margin-top: 10px;
 }
 
 .btn-maps:hover {
@@ -127,16 +133,16 @@ footer {
 }
 
 .pago {
-  font-family: "Crimson Pro", serif;
+  font-family: 'MiFuente', sans-serif;
   margin: 20px;
   background-color:#000000;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .alias-box {
-  font-family: "Oooh Baby", cursive;
+  font-family: 'MiFuente', sans-serif;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .btn-copiar {
@@ -146,7 +152,7 @@ footer {
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 6px;
-  font-family: "Crimson Pro", serif;
+  font-family: 'MiFuente', sans-serif;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -162,7 +168,7 @@ footer {
   font-weight: bold;
 }
 .FraseRegalo{
-    font-family: "Crimson Pro", serif;
+    font-family: 'MiFuente', sans-serif;
     font-size: 1.6rem;
     text-align: center;
     margin-top: 20px;
@@ -174,8 +180,8 @@ footer {
 }
 
 .botonW {
-    font-family: "Oooh Baby", cursive;
-    font-size: 2rem;
+    font-family: 'MiFuente', sans-serif;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 .wap{
@@ -183,7 +189,7 @@ footer {
 }
 
 .fraseFinal{
-    font-family: "Crimson Pro", serif;
+    font-family: 'MiFuente', sans-serif;
     font-size: 2rem;
     color: #ffffff;
 }
